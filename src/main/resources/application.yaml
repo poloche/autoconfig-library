@@ -1,0 +1,7 @@
+library:
+  activity:
+    name: something-to-be-replaced
+    version: 1.0.0
+    date: 125125
+  data:
+    data-bucket: s3-data
