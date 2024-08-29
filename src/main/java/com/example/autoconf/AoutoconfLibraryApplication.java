@@ -1,4 +1,4 @@
-package com.example.aoutoconf;
+package com.example.autoconf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

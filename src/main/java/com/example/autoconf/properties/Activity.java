@@ -1,4 +1,4 @@
-package com.example.aoutoconf.properties;
+package com.example.autoconf.properties;
 
 public class Activity {
     private String name;
