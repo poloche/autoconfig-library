@@ -16,6 +16,7 @@
 
     <properties>
         <java.version>11</java.version>
+        <project.scm.id>github</project.scm.id>
     </properties>
     <dependencies>
         <dependency>
@@ -41,5 +42,14 @@
             </plugin>
         </plugins>
     </build>
-
+    <scm>
+        <developerConnection>scm:git:https://github.com/${git.repository}.git</developerConnection>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub</name>
+            <url>https://maven.pkg.github.com/${git.repository}</url>
+        </repository>
+    </distributionManagement>
 </project>
