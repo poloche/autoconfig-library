@@ -1,6 +1,7 @@
 package com.example.autoconf.properties;
 
 public class Activity {
+
     private String name;
     private String version;
     private long publishDate;
